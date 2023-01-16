@@ -11,10 +11,32 @@
         text-align: center;
 
       }
+.title{
+    text-align: center;
+    color: blue;
+    font-size: xx-large;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+html{
+    background-color: bisque;
+}
 
     </style>
 </head>
 <body>
+
+
+
+    
+    <div class ="title">
+        <body>
+            Sign Up Now
+        </body>
+
+    </div>
+
     <div class = "signup"> 
     <div class="signup__container">
         <div class="screen">
@@ -22,32 +44,53 @@
                 <form class="userinfo">
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-user"></i>
+                        <body>
+                            User Id:
+                        </body>
                         <input type="text" class="userinfo__input" placeholder="User Id ">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
+                        <body>
+                            Password:
+                        </body>
                         <input type="password" class="userinfo__input" placeholder="Password">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
+                        <body>
+                            Name:
+                        </body>
                         <input type="name" class="userinfo__input" placeholder="Name">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="address" class="userinfo__input" placeholder="Address">
+                        <body>
+                            Address:
+                        </body>
+                        <input type="address" class="userinfo__input" placeholder="Street: City: Province:">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="country" class="userinfo__input" placeholder="Country">
+                        <body>
+                            Country
+                        </body>
+                        <input type="country" class="userinfo__input" placeholder="Netherlands">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="zipcode" class="userinfo__input" placeholder="Zipcode">
+                        <body>
+                            Zipcode
+                        </body>
+                        <input type="zipcode" class="userinfo__input" placeholder="XXXX AB">
                     </div>
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="email" class="userinfo__input" placeholder="Email">
+                        <body>
+                            Email:
+                        </body>
+                        <input type="email" class="userinfo__input" placeholder="example@gmail.com">
                     </div>
                     <div class="userinfo__field">
                         <label for="sex-select">Choose a sex</label>
@@ -60,11 +103,17 @@
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="language" class="userinfo__input" placeholder="Language">
+                        <body>
+                            Language:
+                        </body>
+                        <input type="language" class="userinfo__input" placeholder="Dutch">
                     </div>
                     <div class="userinfo__field">
                         <i class="userinfo__icon fas fa-lock"></i>
-                        <input type="text" class="userinfo__input" placeholder="About/Bio">
+                        <body>
+                            About/bio:
+                        </body>
+                        <input type="text" class="userinfo__input" >
                     </div>
                     <button class="button userinfo__submit">
                         <span class="button__text"></span>
@@ -76,5 +125,7 @@
             </div>
         </div>
     </div>
+
+
 </body>
 </html>

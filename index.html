@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .title {
+        text-align: center;
+        font-size: xx-large;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      
+
+        .parent {
+        border: 2px solid rgb(0, 0, 0);
+        display: flex;
+        flex-direction: column;
+      }
+
+      .child {
+        color: white;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+      }
+      .child1 {
+        background: #1abc9c;
+      }
+      .child2 {
+        background: #3498db;
+      }
+      .child3 {
+        background: #9b59b6;
+      }
+      .child4 {
+        background: #34495e;
+      }
+      .child5 {
+        background: #f1c40f;
+      }
+      .child6 {
+        background: #e67e22;
+      }
+      .child7 {
+        background: #e74c3c;
+      }
+      .child8 {
+        background: #bdc3c7;
+      }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="screen">
+            <div class="screen__content">
+                <form class="login">
+                    <div class="login__field">
+                        <i class="login__icon fas fa-user"></i>
+                        <input type="text" class="login__input" placeholder="User name / Email">
+                    </div>
+                    <div class="login__field">
+                        <i class="login__icon fas fa-lock"></i>
+                        <input type="password" class="login__input" placeholder="Password">
+                    </div>
+                    <button class="button login__submit">
+                        <span class="button__text">Log In Now</span>
+                        <i class="button__icon fas fa-chevron-right"></i>
+                    </button>				
+                </form>
+                <form class="sign up">
+                    <button class = "sign up">
+                        <span class="sing up"></span>
+                        <a href="/Users/mark/Documents/WEB/Web Exercise /Assignment 1/signup.html">signup</a>
+                    </button>
+                    
+                    
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="title">
+        <head>
+            Overview of goals
+        </head>
+    </div>
+
+    <div class="parent">
+        <div class="child child1">
+            <input type="text" class="goals" placeholder="goal one">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 1">targets</a>
+        </div>
+        <div class="child child2">
+            <input type="text" class="goals" placeholder="goal two">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 2">targets</a>
+        </div>
+        <div class="child child3">
+            <input type="text" class="goals" placeholder="goal three">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 3">targets</a>
+        </div>
+        <div class="child child4">
+            <input type="text" class="goals" placeholder="goal four">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 4">targets</a>
+        </div>
+        <div class="child child5">
+            <input type="text" class="goals" placeholder="goal five">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 5">targets</a>
+        </div>
+        <div class="child child6">
+            <input type="text" class="goals" placeholder="goal six">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 6">targets</a>
+        </div>
+        <div class="child child7">
+            <input type="text" class="goals" placeholder="goal seven">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 7">targets</a>
+        </div>
+        <div class="child child8">
+            <input type="text" class="goals" placeholder="goal eight">
+            <input type="text" class="duedate" placeholder="due dates">
+            <input type="text" class="description" placeholder="description">
+            <a href="#goal 8">targets</a>
+        </div>
+      </div>
+      <button class = "add goal">
+        <span class="add goal">Add a new Goal</span>
+    </button>
+
+    <div class="title">
+        <head>
+            Targets
+        </head>
+    </div>
+
+    <div class="parent">
+        <div class="child child1">
+            <p id="goal 1">
+              Goal 1
+            </p>
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child1">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child2">
+            <p id="goal 2">
+              Goal 2
+            </p>
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child2">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child3">
+            <p id="goal 3">
+              Goal 3
+            </p>
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child3">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child4">
+            <p id="goal 4">
+              Goal 4
+            </p>
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child4">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child5">
+            <p id="goal 5">
+              Goal 5
+            </p>
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child5">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child6">
+            <p id="goal 6">
+              Goal 6
+            </p>
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child6">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+        <div class="child child7">
+            <p id="goal 7">
+              Goal 7
+            </p>
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 1">
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 2">
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 3">
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 4">
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 5">
+        </div>
+        <div class="child child7">
+            <input type ="checkbox">
+            <input type="text" class="target" placeholder="Target 6">
+        </div>
+        <button class = "add target">
+          <span class="add target">Add a new target</span>
+        </button>
+    </div>
+
+    <div class="parent">
+      <div class="child child8">
+          <p id="goal 8">
+            Goal 8
+          </p>
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 1">
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 2">
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 3">
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 4">
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 5">
+      </div>
+      <div class="child child8">
+          <input type ="checkbox">
+          <input type="text" class="target" placeholder="Target 6">
+      </div>
+      <button class = "add target">
+        <span class="add target">Add a new target</span>
+      </button>
+  </div>
+
+
+ 
+  </div>
+
+
+
+    
+</body>
+</html> 
